@@ -93,6 +93,10 @@ C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\android\as
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\bin\Debug\SQLite-net.pdb
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\linksrc\SQLite-net.pdb
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\android\assets\SQLite-net.pdb
+C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\res\drawable\add.png
+C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\bin\Debug\Microsoft.CSharp.pdb
+C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\linksrc\Microsoft.CSharp.pdb
+C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\android\assets\Microsoft.CSharp.pdb
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\bin\Debug\MustDoX.Android.dll
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\linksrc\MustDoX.pdb
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\linksrc\MustDoX.Android.dll.mdb

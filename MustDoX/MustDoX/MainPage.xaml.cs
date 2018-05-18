@@ -12,11 +12,18 @@ namespace MustDoX
 		public MainPage()
 		{
 			InitializeComponent();
+
 		}
 
         private void Add_Button_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AddTaskPage());
         }
-	}
+
+        private void FloatingActionButton_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Whew", "Ayos", "wen");
+        }
+
+    }
 }

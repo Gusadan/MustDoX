@@ -12,6 +12,9 @@
     <Jar>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\18\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\2\jl\formsviewgroup.jar</Jar>
     <Jar>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\3\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\36\jl\arch-core-common.jar</Jar>
+    <Jar>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\37\jl\arch-lifecycle-common.jar</Jar>
+    <Jar>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\38\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\4\jl\support-annotations.jar</Jar>
     <Jar>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\5\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\6\jl\bin\classes.jar</Jar>
@@ -20,6 +23,11 @@
     <Jar>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\9\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\27\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\28\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\29\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\30\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\31\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\8\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\11\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\12\jl\res</ResolvedResourceDirectory>
@@ -29,10 +37,20 @@
     <ResolvedResourceDirectory>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\17\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\lp\27\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\28\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\29\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\30\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\31\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\12\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\27.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\28.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\29.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\30.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\31.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\8.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\11.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\lp\12.stamp</ResolvedResourceDirectoryStamp>

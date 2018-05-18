@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 
 using Foundation;
+using SuaveControls.FloatingActionButton.iOS.Renderers;
 using UIKit;
 
 namespace MustDoX.iOS
@@ -29,7 +30,7 @@ namespace MustDoX.iOS
 
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App(fullPath));
-
+            FloatingActionButtonRenderer.InitRenderer();
             return base.FinishedLaunching(app, options);
         }
     }
