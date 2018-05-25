@@ -5,33 +5,14 @@
              xmlns:views="clr-namespace:SuaveControls.Views;assembly=SuaveControls.FloatingActionButton"
              x:Class="MustDoX.MainPage">
 
-    <!--<Button Text="Add new task" 
-            Clicked="Add_Button_Clicked"/>-->
-
     <AbsoluteLayout Padding="15">
+        <ListView></ListView>
         <views:FloatingActionButton 
-            AbsoluteLayout.LayoutBounds="0,0,1,1"
-            AbsoluteLayout.LayoutFlags="HeightProportional, WidthProportional"
+            AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
                                 Image="add.png" ButtonColor="#FF4081" 
                              
                                 Clicked="FloatingActionButton_Clicked"/>
-    </AbsoluteLayout>
 
-    <!--<Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="5*"/>
-            <RowDefinition Height="5*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="5*"/>
-            <ColumnDefinition Width="5*"/>
-        </Grid.ColumnDefinitions>
-        <BoxView BackgroundColor="Pink" Grid.Column="0" Grid.Row="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
-        <views:FloatingActionButton Grid.Column="1" Grid.Row="1"
-                                Image="add.png" ButtonColor="#FF4081" 
-                             
-                                HorizontalOptions="Center"
-                                VerticalOptions="Center"
-                                Clicked="FloatingActionButton_Clicked"/>
-    </Grid>-->
+    </AbsoluteLayout>
 </ContentPage>
