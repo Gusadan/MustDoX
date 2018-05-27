@@ -15,6 +15,19 @@ namespace MustDoX
 
 		}
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            using(SQLite.SQLiteConnection sQLiteConnection = new SQLite.SQLiteConnection(App.DB_PATH))
+            {
+                sQLiteConnection.CreateTable<Task>();
+
+                var tasks = sQLiteConnection.Table<Task>().ToList();
+                listViewTaks.ItemsSource = tasks;
+            }
+        }
+
         private void Add_Button_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AddTaskPage());
@@ -22,7 +35,7 @@ namespace MustDoX
 
         private void FloatingActionButton_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Whew", "Ayos", "wen");
+            Navigation.PushAsync(new AddTaskPage());
         }
 
     }

@@ -1,0 +1,4 @@
+References
+	- Udemy - Xamarin: Build Android and iOS Apps That Share C# Code by Eduardo Rosas- Section 11(Xamarin Forms)
+	- https://devlinduldulao.pro/how-to-create-a-floating-action-button/
+	- https://www.youtube.com/watch?v=j8S6R_ZKVhU

@@ -6,7 +6,14 @@
              x:Class="MustDoX.MainPage">
 
     <AbsoluteLayout Padding="15">
-        <ListView></ListView>
+        <ListView x:Name="listViewTaks">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}"
+                              Detail="{Binding Info}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         <views:FloatingActionButton 
             AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize"
             AbsoluteLayout.LayoutFlags="PositionProportional"

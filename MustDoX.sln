@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MustDoX.iOS", "MustDoX\Must
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MustDoX", "MustDoX\MustDoX\MustDoX.csproj", "{9D320FA7-F620-41BC-8B94-C5E02A167D6E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB642AB0-1B4E-4DF0-B3B2-EBC1873C72D7}"
+	ProjectSection(SolutionItems) = preProject
+		Notes.txt = Notes.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

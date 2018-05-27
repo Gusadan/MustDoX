@@ -21,7 +21,8 @@ namespace MustDoX
         {
             Task task = new Task
             {
-                Name = entryName.Text
+                Name = entryTask.Text,
+                Info = entryInfo.Text
             };
             
             using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.DB_PATH))

@@ -98,7 +98,6 @@ C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\bin\Debug\Microsoft.
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\linksrc\Microsoft.CSharp.pdb
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\android\assets\Microsoft.CSharp.pdb
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\bin\Debug\MustDoX.Android.dll
-C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\linksrc\MustDoX.pdb
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\linksrc\MustDoX.Android.dll.mdb
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb

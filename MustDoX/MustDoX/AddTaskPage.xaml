@@ -4,9 +4,11 @@
              x:Class="MustDoX.AddTaskPage">
     <ContentPage.Content>
         <StackLayout>
-            <Entry x:Name="entryName" 
+            <Entry x:Name="entryTask" 
                 Placeholder="Name here..."/>
-            <Button Text="Add Book"
+            <Entry x:Name="entryInfo" 
+                Placeholder="Info here..."/>
+            <Button Text="Add Task"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand" 
                 Clicked="AddTask_Button_Clicked"/>
