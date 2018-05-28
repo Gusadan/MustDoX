@@ -5,8 +5,11 @@
              xmlns:views="clr-namespace:SuaveControls.Views;assembly=SuaveControls.FloatingActionButton"
              x:Class="MustDoX.MainPage">
 
-    <AbsoluteLayout Padding="15">
-        <ListView x:Name="listViewTaks">
+    <AbsoluteLayout>
+        <ListView x:Name="listViewTasks"
+            AbsoluteLayout.LayoutBounds="1,1,1,1"
+            AbsoluteLayout.LayoutFlags="All"
+            ItemTapped="ListViewTasks_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Name}"

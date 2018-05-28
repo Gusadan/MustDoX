@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,8 +13,13 @@ namespace MustDoX
 		public MainPage()
 		{
 			InitializeComponent();
-
 		}
+
+        private void ListViewTasks_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            Task task = (Task)e.Item;
+            Debug.WriteLine(task.Name);
+        }
 
         protected override void OnAppearing()
         {
@@ -24,13 +30,8 @@ namespace MustDoX
                 sQLiteConnection.CreateTable<Task>();
 
                 var tasks = sQLiteConnection.Table<Task>().ToList();
-                listViewTaks.ItemsSource = tasks;
+                listViewTasks.ItemsSource = tasks;
             }
-        }
-
-        private void Add_Button_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new AddTaskPage());
         }
 
         private void FloatingActionButton_Clicked(object sender, EventArgs e)
