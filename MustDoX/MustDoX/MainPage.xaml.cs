@@ -13,12 +13,26 @@ namespace MustDoX
 		public MainPage()
 		{
 			InitializeComponent();
+            listViewTasks.ItemSelected += ListViewTasks_ItemSelected;
 		}
+
+        private void ListViewTasks_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            Task task = (Task)e.SelectedItem;
+            Debug.WriteLine(task.Name);
+
+        }
+
+        private async void ButtonTest_Clicked(object sender, EventArgs e)
+        {
+            Debug.Write("Text", "Test");
+            await listViewTasks.FadeTo(1, 3000);
+            Debug.Write("Visible", listViewTasks.IsVisible.ToString());
+        }
 
         private void ListViewTasks_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            Task task = (Task)e.Item;
-            Debug.WriteLine(task.Name);
+            
         }
 
         protected override void OnAppearing()
@@ -38,6 +52,8 @@ namespace MustDoX
         {
             Navigation.PushAsync(new AddTaskPage());
         }
+
+
 
     }
 }

@@ -4,25 +4,47 @@
              xmlns:local="clr-namespace:MustDoX"
              xmlns:views="clr-namespace:SuaveControls.Views;assembly=SuaveControls.FloatingActionButton"
              x:Class="MustDoX.MainPage">
-
+   
     <AbsoluteLayout>
         <ListView x:Name="listViewTasks"
             AbsoluteLayout.LayoutBounds="1,1,1,1"
             AbsoluteLayout.LayoutFlags="All"
-            ItemTapped="ListViewTasks_ItemTapped">
+            ItemTapped="ListViewTasks_ItemTapped"
+            ItemSelected="ListViewTasks_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Name}"
                               Detail="{Binding Info}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
+            <ListView.Footer>
+                <BoxView Margin="50"></BoxView>
+            </ListView.Footer>
         </ListView>
         <views:FloatingActionButton 
             AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize"
             AbsoluteLayout.LayoutFlags="PositionProportional"
-                                Image="add.png" ButtonColor="#FF4081" 
-                             
-                                Clicked="FloatingActionButton_Clicked"/>
+            Image="add.png" ButtonColor="#FF4081"                             
+            Clicked="FloatingActionButton_Clicked"/>
+        <Button x:Name="buttonTest"
+            Text="Test"
+            AbsoluteLayout.LayoutBounds=".5,.5,AutoSize,AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Clicked="ButtonTest_Clicked"/>
+
+        <StackLayout x:Name="stackLayout_BottomSettings"
+            BackgroundColor="LightGray"
+            AbsoluteLayout.LayoutBounds="0,1,1,AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" >
+            <StackLayout Orientation="Horizontal">
+                <Button Text="PAGE1"
+                            BackgroundColor="LightGray" />
+                <Button Text="PAGE2"
+                            BackgroundColor="LightGray" />
+                <Button Text="PAGE3"
+                            BackgroundColor="LightGray" />
+            </StackLayout>
+        </StackLayout>
 
     </AbsoluteLayout>
 </ContentPage>

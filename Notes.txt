@@ -6,3 +6,4 @@ References
 To Do
 	- Add multiselect on listViewTask
 	- Add delete function on listViewTask
+	- HIDE Floating Action Button and SHOW bottom toolbar(contains edit and delete function) if an item on listview is selected.
