@@ -1,7 +1,6 @@
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\bin\Debug\netstandard2.0\MustDoX.deps.json
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\bin\Debug\netstandard2.0\MustDoX.dll
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\bin\Debug\netstandard2.0\MustDoX.pdb
-C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\obj\Debug\netstandard2.0\MustDoX.csprojResolveAssemblyReference.cache
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\obj\Debug\netstandard2.0\MustDoX.csproj.CoreCompileInputs.cache
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\obj\Debug\netstandard2.0\MustDoX.App.xaml.g.cs
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\obj\Debug\netstandard2.0\MustDoX.MainPage.xaml.g.cs
@@ -10,3 +9,4 @@ C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\obj\Debug\netstandard2.0\Mus
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\obj\Debug\netstandard2.0\MustDoX.dll
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\obj\Debug\netstandard2.0\MustDoX.pdb
 C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\obj\Debug\netstandard2.0\MustDoX.AddTaskPage.xaml.g.cs
+C:\Users\Goose\Source\Repos\MustDoX\MustDoX\MustDoX\obj\Debug\netstandard2.0\MustDoX.csprojAssemblyReference.cache

@@ -37,8 +37,10 @@
             AbsoluteLayout.LayoutBounds="0,1,1,AutoSize"
             AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" >
             <StackLayout Orientation="Horizontal">
-                <Button Text="PAGE1"
-                            BackgroundColor="LightGray" />
+                <Button x:Name="buttonDelete"
+                    Text="Delete"
+                    BackgroundColor="LightGray" 
+                    Clicked="buttonDelete_Clicked"/>
                 <Button Text="PAGE2"
                             BackgroundColor="LightGray" />
                 <Button Text="PAGE3"

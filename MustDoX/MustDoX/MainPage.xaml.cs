@@ -10,17 +10,19 @@ namespace MustDoX
 {
 	public partial class MainPage : ContentPage
 	{
+        Task taskSelected;
+
 		public MainPage()
 		{
 			InitializeComponent();
             listViewTasks.ItemSelected += ListViewTasks_ItemSelected;
+            taskSelected = null;
 		}
 
         private void ListViewTasks_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            Task task = (Task)e.SelectedItem;
-            Debug.WriteLine(task.Name);
-
+            taskSelected = (Task)e.SelectedItem;
+            Debug.WriteLine(taskSelected.Name);
         }
 
         private async void ButtonTest_Clicked(object sender, EventArgs e)
@@ -39,13 +41,7 @@ namespace MustDoX
         {
             base.OnAppearing();
 
-            using(SQLite.SQLiteConnection sQLiteConnection = new SQLite.SQLiteConnection(App.DB_PATH))
-            {
-                sQLiteConnection.CreateTable<Task>();
-
-                var tasks = sQLiteConnection.Table<Task>().ToList();
-                listViewTasks.ItemsSource = tasks;
-            }
+            reloadListViewTasks();
         }
 
         private void FloatingActionButton_Clicked(object sender, EventArgs e)
@@ -53,7 +49,25 @@ namespace MustDoX
             Navigation.PushAsync(new AddTaskPage());
         }
 
+        private void buttonDelete_Clicked(object sender, EventArgs e)
+        {
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.DB_PATH))
+            {
+                conn.CreateTable<Task>();
+                var numberOfRows = conn.Delete(taskSelected);
+            }
+            reloadListViewTasks();
+        }
 
+        private void reloadListViewTasks()
+        {
+            using (SQLite.SQLiteConnection sQLiteConnection = new SQLite.SQLiteConnection(App.DB_PATH))
+            {
+                sQLiteConnection.CreateTable<Task>();
 
+                var tasks = sQLiteConnection.Table<Task>().ToList();
+                listViewTasks.ItemsSource = tasks;
+            }
+        }
     }
 }
